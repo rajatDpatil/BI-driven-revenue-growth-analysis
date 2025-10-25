@@ -90,7 +90,7 @@ The Power BI dashboard includes:
 ### Steps
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone <gh repo clone rajatDpatil/BI-driven-revenue-growth-analysis>
    cd customer-shopping-analysis
    ```
 

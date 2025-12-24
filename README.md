@@ -1,14 +1,14 @@
 # Customer Shopping Behavior Analysis
 
-## 📋 Brief Summary
+## Brief Summary
 
 End-to-end business intelligence project analyzing 3,900+ customer transactions to optimize revenue streams and deliver actionable insights for strategic growth.
 
-## 📊 Overview
+## Overview
 
 This project provides a comprehensive analysis of customer shopping behavior to uncover spending patterns, customer segments, and subscription trends. By leveraging data analytics across multiple platforms, the project transforms raw transactional data into strategic business recommendations for revenue maximization and customer retention.
 
-## ❓ Problem Statement
+## Problem Statement
 
 Businesses struggle to understand customer purchasing behavior and optimize revenue streams effectively. Key challenges include:
 - Identifying high-value customer segments
@@ -18,7 +18,7 @@ Businesses struggle to understand customer purchasing behavior and optimize reve
 
 This project addresses these challenges by analyzing comprehensive transactional data to provide data-driven insights for strategic decision-making.
 
-## 📁 Dataset
+## Dataset
 
 - **Total Records:** 3,900 customer transactions
 - **Features:** 18 columns covering:
@@ -27,14 +27,14 @@ This project addresses these challenges by analyzing comprehensive transactional
   - **Behavior Metrics:** Discount Applied, Previous Purchases, Frequency, Review Rating, Shipping Type
 - **Data Quality:** 37 missing values in Review Rating (handled via median imputation by category)
 
-## 🛠️ Tools and Technologies
+## Tools and Technologies
 
 - **Python (Jupyter Notebook)** - Data cleaning, EDA, and feature engineering
 - **PostgreSQL** - Business analytics and structured querying
 - **Power BI** - Interactive dashboard and data visualization
 - **Key Libraries:** pandas, numpy, psycopg2
 
-## 🔬 Methods
+## Methods
 
 ### 1. Data Preprocessing (Python)
 - Loaded and explored dataset using pandas
@@ -61,7 +61,7 @@ Executed 10 strategic queries:
 - Created product performance metrics
 - Displayed subscription impact analysis
 
-## 💡 Key Insights
+## Key Insights
 
 - **Customer Segmentation:** Identified distinct New, Returning, and Loyal customer groups with varying spending patterns
 - **Subscription Value:** Subscribers show higher average spend and lifetime value
@@ -70,7 +70,7 @@ Executed 10 strategic queries:
 - **Repeat Purchase Correlation:** Customers with 5+ purchases show higher subscription likelihood
 - **Product Performance:** Top-rated products align with best-selling items, indicating quality-driven purchases
 
-## 📊 Dashboard/Model/Output
+## Dashboard/Model/Output
 
 The Power BI dashboard includes:
 - **Revenue Overview:** Total revenue by gender, age group, and subscription status
@@ -79,7 +79,7 @@ The Power BI dashboard includes:
 - **Behavioral Insights:** Purchase frequency, shipping preferences, and discount impact
 - **Interactive Filters:** Dynamic filtering by demographics, product categories, and time periods
 
-## 🚀 How to Run this Project?
+## How to Run this Project?
 
 ### Prerequisites
 - Python 3.8+
@@ -114,7 +114,7 @@ The Power BI dashboard includes:
 6. **View dashboard**
    - Open `dashboard/shopping_behavior_dashboard.pbix` in Power BI Desktop
 
-## 📈 Results & Conclusion
+## Results & Conclusion
 
 The analysis successfully identified key revenue drivers and customer behavior patterns:
 - **Revenue Optimization:** Pinpointed high-value customer segments and products
@@ -124,7 +124,7 @@ The analysis successfully identified key revenue drivers and customer behavior p
 
 **Conclusion:** This project demonstrates how integrated analytics across Python, SQL, and Power BI can transform raw data into strategic business intelligence, driving revenue growth and customer loyalty.
 
-## 🔮 Future Work
+## Future Work
 
 - Implement predictive modeling for customer churn and lifetime value
 - Develop recommendation system based on purchase history
@@ -133,7 +133,7 @@ The analysis successfully identified key revenue drivers and customer behavior p
 - Build automated reporting pipeline for continuous monitoring
 - Apply machine learning for customer segmentation optimization
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 customer-shopping-analysis/

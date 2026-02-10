@@ -30,7 +30,7 @@ This project addresses these challenges by analyzing comprehensive transactional
 ## Tools and Technologies
 
 - **Python (Jupyter Notebook)** - Data cleaning, EDA, and feature engineering
-- **PostgreSQL** - Business analytics and structured querying
+- **MySQL** - Business analytics and structured querying
 - **Power BI** - Interactive dashboard and data visualization
 - **Key Libraries:** pandas, numpy, psycopg2
 
